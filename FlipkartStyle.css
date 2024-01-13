@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+body {
+    background-color: #f1f3f6;
+}
+
+.nav-container {
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    /* background-color: antiquewhite; */
+}
+
+.nav-container .logo {
+    height: 50px;
+    width: 100px;
+    background-image: url('https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Logo-2015-present.jpg');
+    background-size: cover;
+}
+
+.nav-container .logo:hover {
+    cursor: pointer;
+}
+
+.search-panel {
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.search-panel .search-box {
+    width: 400px;
+    height: 35px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+
+::placeholder {
+    font-size: 1rem;
+}
+
+.search-panel .search-btn {
+    height: 35px;
+    width: 32px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    font-size: 1.2rem;
+    margin-left: 18px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+/* Login button */
+.icon-loginBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    height: 40px;
+    padding-left: 15px;
+
+}
+
+.icon-loginBtn:hover {
+    cursor: pointer;
+}
+
+.user-icon {
+    font-size: 1.3rem;
+    margin-right: 2px;
+}
+
+.loginBtn {
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+}
+
+.cart {
+    display: flex;
+    width: 279px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+.cart-icon:hover{
+    cursor: pointer;
+}
+.gift-icon:hover{
+    cursor: pointer;
+}
+.menu-line:hover{
+    cursor: pointer;
+}
+.gift-icon {
+    width: 144px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-1 {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-1-container {
+    width: 98%;
+    margin: 4px;
+    margin-top: 18px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-1-items {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.section-1-items img {
+    width: 100px;
+    height: 100px;
+}
+
+.section-2 {
+    height: 240px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2-container {
+    width: 98%;
+    margin: 4px;
+    margin-top: 33px;
+    height: 100%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-2-items {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+.section-2-items img {
+    width: 273%;
+    height: 97%;
+}
+
+.section-3 {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+}
+
+.section-3-container {
+    width: 98%;
+    margin: 12px;
+    margin-top: 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rgb(202, 221, 221); */
+}
+
+.section-3-left {
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-3-left-top {
+    height: 70px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.section-3-left-bottom {
+    height: 170px;
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    /* border: 2px solid; */
+}
+
+.img-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    font-size: 15px;
+    align-items: center;
+    width: 900px;
+}
+
+.img-text p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.section-3-left img {
+    height: 100%;
+    width: 90%;
+    background-size: contain;
+}
+
+
+.section-3-right {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid; */
+    /* margin-left: 9px; */
+}
+
+.section-3-right-img-text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 1.8rem;
+}
+
+.section-3-right-img-text img {
+    height: 100%;
+    width: 90%;
+    background-size: cover;
+
+}
+
+.section-4 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4-container {
+    width: 98%;
+    margin: 4px;
+    margin-top: 90px;
+    height: 100%;
+    background-color: rgb(31, 25, 25);
+    color: white;
+    display: flex;
+    /* align-items:center; */
+    justify-content:space-around;
+}
+
+.section-4-container ul a {
+    display: block;
+    margin-top: 18px;
+    color: white;
+    text-decoration: none;
+}
+.section-4-container ul a:hover{
+        text-decoration: underline;
+}
+
+.section-4-container ul p {
+    opacity: 0.4;
+
+    margin-top: 90px;
+}
+
+.mailus{
+    border-left: 1px solid rgb(167, 162, 162);
+    padding-left: 36px;
+}
+
+.para{
+    margin-top: 20px;
+}
+
+.para .tele-no{
+    text-decoration: none;
+}
+
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(33, 34, 32);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 42px;
+    border-top: 2px solid white;
+    color: white;
+}
+
